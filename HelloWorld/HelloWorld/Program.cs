@@ -21,6 +21,7 @@ namespace HelloWorld
 
                 Console.WriteLine("\nname: " + name);
                 Console.WriteLine("age: " + age);
+                //Switch för speciella meddelanden för speciella åldrar
                 switch (age){
                     case 0:
                         Console.WriteLine("You were just born");
@@ -65,14 +66,19 @@ namespace HelloWorld
                     case 100:
                         Console.WriteLine("You're pretty darn old!");
                         break;
+
+                    default:
+                        break;
                 }
                 Console.WriteLine("State of living: " + isAlive);
 
+                //Unlike my boolean 'isAlive' this one accepts inputs a normal human would write
                 Console.WriteLine("\nDo you want to write again? yes/no");
                 var again = Console.ReadLine();
 
                 if (again == "yes")
                 {
+                    //The best usage of a for loop i've ever done
                     for (var i = 0; i < 3; i++)
                     {
                         Console.WriteLine();
@@ -81,6 +87,7 @@ namespace HelloWorld
 
                 else
                 {
+                    //Breaks? Where we're going we don't need breaks.
                     repeat = false;
                 }
             }
