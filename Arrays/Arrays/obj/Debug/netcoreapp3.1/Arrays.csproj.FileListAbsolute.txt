@@ -1,0 +1,12 @@
+D:\everything\GitHub\Prog02Scoinc\Arrays\Arrays\bin\Debug\netcoreapp3.1\Arrays.exe
+D:\everything\GitHub\Prog02Scoinc\Arrays\Arrays\bin\Debug\netcoreapp3.1\Arrays.deps.json
+D:\everything\GitHub\Prog02Scoinc\Arrays\Arrays\bin\Debug\netcoreapp3.1\Arrays.runtimeconfig.json
+D:\everything\GitHub\Prog02Scoinc\Arrays\Arrays\bin\Debug\netcoreapp3.1\Arrays.runtimeconfig.dev.json
+D:\everything\GitHub\Prog02Scoinc\Arrays\Arrays\bin\Debug\netcoreapp3.1\Arrays.dll
+D:\everything\GitHub\Prog02Scoinc\Arrays\Arrays\bin\Debug\netcoreapp3.1\Arrays.pdb
+D:\everything\GitHub\Prog02Scoinc\Arrays\Arrays\obj\Debug\netcoreapp3.1\Arrays.AssemblyInfoInputs.cache
+D:\everything\GitHub\Prog02Scoinc\Arrays\Arrays\obj\Debug\netcoreapp3.1\Arrays.AssemblyInfo.cs
+D:\everything\GitHub\Prog02Scoinc\Arrays\Arrays\obj\Debug\netcoreapp3.1\Arrays.csproj.CoreCompileInputs.cache
+D:\everything\GitHub\Prog02Scoinc\Arrays\Arrays\obj\Debug\netcoreapp3.1\Arrays.dll
+D:\everything\GitHub\Prog02Scoinc\Arrays\Arrays\obj\Debug\netcoreapp3.1\Arrays.pdb
+D:\everything\GitHub\Prog02Scoinc\Arrays\Arrays\obj\Debug\netcoreapp3.1\Arrays.genruntimeconfig.cache
