@@ -1,0 +1,13 @@
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOPIntro\OOPIntro\bin\Debug\netcoreapp3.1\OOPIntro.exe
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOPIntro\OOPIntro\bin\Debug\netcoreapp3.1\OOPIntro.deps.json
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOPIntro\OOPIntro\bin\Debug\netcoreapp3.1\OOPIntro.runtimeconfig.json
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOPIntro\OOPIntro\bin\Debug\netcoreapp3.1\OOPIntro.runtimeconfig.dev.json
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOPIntro\OOPIntro\bin\Debug\netcoreapp3.1\OOPIntro.dll
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOPIntro\OOPIntro\bin\Debug\netcoreapp3.1\OOPIntro.pdb
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOPIntro\OOPIntro\obj\Debug\netcoreapp3.1\OOPIntro.csprojAssemblyReference.cache
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOPIntro\OOPIntro\obj\Debug\netcoreapp3.1\OOPIntro.AssemblyInfoInputs.cache
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOPIntro\OOPIntro\obj\Debug\netcoreapp3.1\OOPIntro.AssemblyInfo.cs
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOPIntro\OOPIntro\obj\Debug\netcoreapp3.1\OOPIntro.csproj.CoreCompileInputs.cache
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOPIntro\OOPIntro\obj\Debug\netcoreapp3.1\OOPIntro.dll
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOPIntro\OOPIntro\obj\Debug\netcoreapp3.1\OOPIntro.pdb
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOPIntro\OOPIntro\obj\Debug\netcoreapp3.1\OOPIntro.genruntimeconfig.cache
