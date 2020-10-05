@@ -1,0 +1,13 @@
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOP\OOP\bin\Debug\netcoreapp3.1\OOP.exe
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOP\OOP\bin\Debug\netcoreapp3.1\OOP.deps.json
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOP\OOP\bin\Debug\netcoreapp3.1\OOP.runtimeconfig.json
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOP\OOP\bin\Debug\netcoreapp3.1\OOP.runtimeconfig.dev.json
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOP\OOP\bin\Debug\netcoreapp3.1\OOP.dll
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOP\OOP\bin\Debug\netcoreapp3.1\OOP.pdb
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOP\OOP\obj\Debug\netcoreapp3.1\OOP.csprojAssemblyReference.cache
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOP\OOP\obj\Debug\netcoreapp3.1\OOP.AssemblyInfoInputs.cache
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOP\OOP\obj\Debug\netcoreapp3.1\OOP.AssemblyInfo.cs
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOP\OOP\obj\Debug\netcoreapp3.1\OOP.csproj.CoreCompileInputs.cache
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOP\OOP\obj\Debug\netcoreapp3.1\OOP.dll
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOP\OOP\obj\Debug\netcoreapp3.1\OOP.pdb
+C:\Users\david.utbult\Documents\GitHub\Prog02Scoinc\OOP\OOP\obj\Debug\netcoreapp3.1\OOP.genruntimeconfig.cache

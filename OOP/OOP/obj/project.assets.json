@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\david.utbult\\Documents\\GitHub\\Prog02Scoinc\\Arrays\\Arrays\\Arrays.csproj",
-      "projectName": "Arrays",
-      "projectPath": "C:\\Users\\david.utbult\\Documents\\GitHub\\Prog02Scoinc\\Arrays\\Arrays\\Arrays.csproj",
+      "projectUniqueName": "C:\\Users\\david.utbult\\Documents\\GitHub\\Prog02Scoinc\\OOP\\OOP\\OOP.csproj",
+      "projectName": "OOP",
+      "projectPath": "C:\\Users\\david.utbult\\Documents\\GitHub\\Prog02Scoinc\\OOP\\OOP\\OOP.csproj",
       "packagesPath": "C:\\Users\\david.utbult\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\david.utbult\\Documents\\GitHub\\Prog02Scoinc\\Arrays\\Arrays\\obj\\",
+      "outputPath": "C:\\Users\\david.utbult\\Documents\\GitHub\\Prog02Scoinc\\OOP\\OOP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\david.utbult\\AppData\\Roaming\\NuGet\\NuGet.Config",
