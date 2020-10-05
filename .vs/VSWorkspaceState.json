@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\OOPIntro"
+    "\\OOP",
+    "\\OOPIntro",
+    "\\OOP\\OOP"
   ],
-  "SelectedNode": "\\OOPIntro\\OOPIntro.sln",
+  "SelectedNode": "\\OOP\\OOP.sln",
   "PreviewInSolutionExplorer": false
 }

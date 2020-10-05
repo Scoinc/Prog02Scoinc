@@ -7,8 +7,6 @@ namespace OOP
     {
         static void Main(string[] args)
         {
-
-
             bool shopping = true;
             while (shopping)
             {
@@ -27,12 +25,11 @@ namespace OOP
                 Console.WriteLine("Would you like to continue shopping? Y/N");
                 var stay = Console.ReadLine();
 
-                if(stay == "Y")
+                if(stay.ToLower() == "y")
                 {
-
                     Console.WriteLine();
                 }
-
+                
                 else
                 {
                     //Gets name, age and country of residence
