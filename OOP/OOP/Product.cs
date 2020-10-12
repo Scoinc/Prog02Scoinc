@@ -6,12 +6,15 @@ namespace OOP
 {
     class Product
     {
-        String _product;
-        int _price;
-        public Product(string product, int price)
+        public int _ammount;
+        public int _price;
+        public int total;
+
+        public Product(int ammount, int price)
         {
-            _product = product;
+            _ammount = ammount;
             _price = price;
+            total = _ammount * _price;
         }
     }
 }

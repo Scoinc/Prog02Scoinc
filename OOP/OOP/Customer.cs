@@ -6,14 +6,10 @@ namespace OOP
 {
     class Customer
     {
-        String _name;
-        int _age;
-        String _country;
-        public Customer(string name, int age, String Country)
-        {
-            _name = name;
-            _age = age;
-            _country = Country;
-        }
+        public String _name;
+        public int _age;
+        public String _country;
+
+        public List<Product> _cart = new List<Product>();
     }
 }
