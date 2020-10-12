@@ -13,6 +13,7 @@ namespace OOP
 
             Customer customer = new Customer();
 
+            //Shopping for more things doesn't work but i'm too lazy to remove it
             while (shopping)
             {
                 //Gets product and price
