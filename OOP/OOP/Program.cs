@@ -10,54 +10,72 @@ namespace OOP
             bool shopping = true;
             int total = 0;
             int ammount = 0;
+            string product = "";
 
             Customer customer = new Customer();
 
-            //Shopping for more things doesn't work but i'm too lazy to remove it
-            while (shopping)
+            Console.WriteLine("Please write your name:");
+            customer._name = Console.ReadLine();
+
+            Console.WriteLine("What do you want to purchase?\n1. Chocolate\n2. Ice cream\n3. Liquorice");
+            int SC = Convert.ToInt32(Console.ReadLine());
+            switch (SC)
             {
-                //Gets product and price
-                Console.WriteLine("How many are you going to buy?");
-                ammount = Convert.ToInt32(Console.ReadLine());
-
-                Console.WriteLine("\nHow much does that cost?");
-                int price = Convert.ToInt32(Console.ReadLine());
-
-                //Creates product with given product and price and adds it to cart
-                Product product2 = new Product(ammount, price);
-                customer._cart.Add(product2);
-
-                //I might think of a not horrible way to do this at some point
-                Console.WriteLine("Would you like to continue shopping? Y/N");
-                var stay = Console.ReadLine();
-
-                if(stay.ToLower() == "y")
-                {
-                    Console.WriteLine();
-                }
-                
-                else
-                {
-                    //Gives customer a name, age and country of residence
-                    Console.WriteLine("To continue purchase please write your name, age and country of residence:");
-                    Console.WriteLine("\nName:");
-                    customer._name = Console.ReadLine();
-
-                    Console.WriteLine("\nage:");
-                    customer._age = Convert.ToInt32(Console.ReadLine());
-
-                    Console.WriteLine("\ncountry of residence");
-                    customer._country = Console.ReadLine();
-
-                    //Stops the loop
-                    shopping = false;
-
-                    foreach (var Product in customer._cart)
-                    {
-                        Console.WriteLine(customer._name + " has ordered " + product2._ammount + " of whatever i'm selling for " + product2.total + " currency");
-                    }
-                    }
+                case 1:
+                    product = "Chocolate";
+                    break;
+                case 2:
+                    product = "Ice cream";
+                    break;
+                case 3:
+                    product = "Liquorice";
+                    break;
+                default:
+                    break;
             }
+
+
+
+            //Gets product and price
+            Console.WriteLine("How many " + product + "s are you going to buy?");
+            ammount = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("\nHow much do those cost?");
+            int price = Convert.ToInt32(Console.ReadLine());
+
+            //Creates given product product with given price and adds it to cart
+            if (product == "Chocolate")
+            {
+                Chocolate chocolate = new Chocolate(ammount, price);
+                customer._cart.Add(chocolate);
+
+                foreach (var Product in customer._cart)
+                {
+                    Console.WriteLine(customer._name + " has ordered " + chocolate._ammount + " chocolates for " + chocolate.total + " currency");
+                }
+            }
+
+            else if (product == "Ice cream")
+            {
+                IceCream iceCream = new IceCream(ammount, price);
+                customer._cart.Add(iceCream);
+                foreach (var Product in customer._cart)
+                {
+                    Console.WriteLine(customer._name + " has ordered " + iceCream._ammount + " ice creams for " + iceCream.total + " currency");
+                }
+            }
+
+            else if (product == "Liquorice")
+            {
+                Liquorice liquorice = new Liquorice(ammount, price);
+                customer._cart.Add(liquorice);
+                foreach (var Product in customer._cart)
+                {
+                    Console.WriteLine(customer._name + " has ordered " + liquorice._ammount + " pieces of liquorice for " + liquorice.total + " currency");
+                }
+            }
+
+
         }
     }
 }
