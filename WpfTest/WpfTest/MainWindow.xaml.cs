@@ -25,11 +25,6 @@ namespace WpfTest
             InitializeComponent();
         }
 
-        private void BigButton_Click(object sender, RoutedEventArgs e)
-        {
-            TextBlock1.Text += " Boop";
-        }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             int value = int.Parse(sumNum.Text);
@@ -137,6 +132,11 @@ namespace WpfTest
         {
             int value = int.Parse(sumNum.Text);
 
+        }
+
+        private void Equals_Click(object sender, RoutedEventArgs e)
+        {
+            int value = int.Parse(sumNum.Text);
         }
     }
 }
