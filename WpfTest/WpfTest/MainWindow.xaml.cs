@@ -24,7 +24,7 @@ namespace WpfTest
         {
             InitializeComponent();
         }
-
+            
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             int value = int.Parse(sumNum.Text);
