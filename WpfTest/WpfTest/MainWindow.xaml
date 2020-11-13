@@ -36,6 +36,6 @@
             <Button Name="minus" Click="minus_Click" Grid.Column="3" Grid.Row="3" Content="-"/>
             <Button Name="plus" Click="plus_Click" Grid.Column="3" Grid.Row="4" Content="+"/>
             <Button Name="clear" Click="clear_Click" Grid.Row="4" Grid.Column="1" Content="Clear"/>
-            <TextBlock Name="sumNum" Grid.ColumnSpan="4" Grid.Row="0" Text="0" Background="Gray" FontSize="60" FontFamily="Comic Sans MS"/>
+            <TextBlock Name="inOutput" Grid.ColumnSpan="4" Grid.Row="0" Background="Gray" FontSize="60" FontFamily="Comic Sans MS"/>
     </Grid>
 </Window>

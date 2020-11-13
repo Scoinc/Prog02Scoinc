@@ -27,116 +27,113 @@ namespace WpfTest
             
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            int value = int.Parse(sumNum.Text);
-            int sum = value + 0;
-            sumNum.Text = "";
-            sumNum.Text += sum;
+            inOutput.Text += 0;
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            int value = int.Parse(sumNum.Text);
-            int sum = value + 1;
-            sumNum.Text = "";
-            sumNum.Text += sum;
+            inOutput.Text += 1;
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            int value = int.Parse(sumNum.Text);
-            int sum = value + 2;
-            sumNum.Text = "";
-            sumNum.Text += sum;
+            inOutput.Text += 2;
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            int value = int.Parse(sumNum.Text);
-            int sum = value + 3;
-            sumNum.Text = "";
-            sumNum.Text += sum;
+            inOutput.Text += 3;
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
-            int value = int.Parse(sumNum.Text);
-            int sum = value + 4;
-            sumNum.Text = "";
-            sumNum.Text += sum;
+            inOutput.Text += 4;
         }
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
-            int value = int.Parse(sumNum.Text);
-            int sum = value + 5;
-            sumNum.Text = "";
-            sumNum.Text += sum;
+            inOutput.Text += 5;
         }
 
         private void Button_Click_6(object sender, RoutedEventArgs e)
         {
-            int value = int.Parse(sumNum.Text);
-            int sum = value + 6;
-            sumNum.Text = "";
-            sumNum.Text += sum;
+            inOutput.Text += 6;
         }
 
         private void Button_Click_7(object sender, RoutedEventArgs e)
         {
-            int value = int.Parse(sumNum.Text);
-            int sum = value + 7;
-            sumNum.Text = "";
-            sumNum.Text += sum;
+            inOutput.Text += 7;
         }
 
         private void Button_Click_8(object sender, RoutedEventArgs e)
         {
-            int value = int.Parse(sumNum.Text);
-            int sum = value + 8;
-            sumNum.Text = "";
-            sumNum.Text += sum;
+            inOutput.Text += 8;
         }
 
         private void Button_Click_9(object sender, RoutedEventArgs e)
         {
-            int value = int.Parse(sumNum.Text);
-            int sum = value + 9;
-            sumNum.Text = "";
-            sumNum.Text += sum;
+            inOutput.Text += 9;
         }
 
         private void clear_Click(object sender, RoutedEventArgs e)
         {
-            sumNum.Text = "0";
+            inOutput.Text = "";
         }
 
         private void plus_Click(object sender, RoutedEventArgs e)
         {
-            int value = int.Parse(sumNum.Text);
+            inOutput.Text += "+";
 
         }
 
         private void times_Click(object sender, RoutedEventArgs e)
         {
-            int value = int.Parse(sumNum.Text);
+            inOutput.Text += "*";
 
         }
 
         private void divide_Click(object sender, RoutedEventArgs e)
         {
-            int value = int.Parse(sumNum.Text);
+            inOutput.Text += "/";
 
         }
 
         private void minus_Click(object sender, RoutedEventArgs e)
         {
-            int value = int.Parse(sumNum.Text);
+            inOutput.Text += "-";
 
         }
 
         private void Equals_Click(object sender, RoutedEventArgs e)
         {
-            int value = int.Parse(sumNum.Text);
+            string text = inOutput.Text;
+            string[] splitText;
+            for (int i = 0; i < inOutput.Text.Length; i++)
+            {
+                char[] numArray = text.ToCharArray();
+
+                if ( numArray[i] == '+')
+                {
+                    splitText = text.Split('+', 3);
+                    //splitText[0] + splitText[2];
+                }
+
+                else if (numArray[i] == '-')
+                {
+                    splitText = text.Split('-', 3);
+                }
+
+                else if (numArray[i] == '*')
+                {
+                    splitText = text.Split('*', 3);
+                }
+
+                else if (numArray[i] == '/')
+                {
+                    splitText = text.Split('/', 3);
+                }
+            }
+            inOutput.Text = "";
         }
     }
 }
