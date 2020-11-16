@@ -24,7 +24,8 @@ namespace WpfTest
         {
             InitializeComponent();
         }
-            
+        
+        //All of this could be simplified by having every button be inOutput.Text += Button.Content
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             inOutput.Text += 0;
@@ -108,6 +109,10 @@ namespace WpfTest
         {
             string text = inOutput.Text;
             string[] splitText;
+            int r;
+            int val1;
+            int val2;
+            int val3;
             for (int i = 0; i < inOutput.Text.Length; i++)
             {
                 char[] numArray = text.ToCharArray();
@@ -115,12 +120,17 @@ namespace WpfTest
                 if ( numArray[i] == '+')
                 {
                     splitText = text.Split('+', 3);
-                    //splitText[0] + splitText[2];
+                    val1 = int.Parse(splitText[0]);
+                    val2 = int.Parse(splitText[2]);
+                    val3 = val1 + val2;
+                    inOutput.Text = Convert.ToString(val3);
+                    
                 }
 
                 else if (numArray[i] == '-')
                 {
                     splitText = text.Split('-', 3);
+                    r = 0;
                 }
 
                 else if (numArray[i] == '*')
