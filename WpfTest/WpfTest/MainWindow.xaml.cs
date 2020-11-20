@@ -25,7 +25,8 @@ namespace WpfTest
             InitializeComponent();
         }
         
-        //All of this could be simplified by having every button be inOutput.Text += Button.Content
+        //All of this could be simplified by having every button be inOutput.Text += xButton.Content but whatever,
+        //it doesn't even cut down on rows.
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             inOutput.Text += 0;
@@ -113,37 +114,48 @@ namespace WpfTest
             int val1;
             int val2;
             int val3;
+
+            //Does not handle negative numbers or several equations unless '=' is pressed
             for (int i = 0; i < inOutput.Text.Length; i++)
             {
                 char[] numArray = text.ToCharArray();
 
                 if ( numArray[i] == '+')
                 {
-                    splitText = text.Split('+', 3);
+                    splitText = text.Split('+');
                     val1 = int.Parse(splitText[0]);
-                    val2 = int.Parse(splitText[2]);
+                    val2 = int.Parse(splitText[1]);
                     val3 = val1 + val2;
                     inOutput.Text = Convert.ToString(val3);
-                    
                 }
 
                 else if (numArray[i] == '-')
                 {
-                    splitText = text.Split('-', 3);
-                    r = 0;
+                    splitText = text.Split('-');
+                    val1 = int.Parse(splitText[0]);
+                    val2 = int.Parse(splitText[1]);
+                    val3 = val1 - val2;
+                    inOutput.Text = Convert.ToString(val3);
                 }
 
                 else if (numArray[i] == '*')
                 {
-                    splitText = text.Split('*', 3);
+                    splitText = text.Split('*');
+                    val1 = int.Parse(splitText[0]);
+                    val2 = int.Parse(splitText[1]);
+                    val3 = val1 * val2;
+                    inOutput.Text = Convert.ToString(val3);
                 }
 
                 else if (numArray[i] == '/')
                 {
-                    splitText = text.Split('/', 3);
+                    splitText = text.Split('/');
+                    val1 = int.Parse(splitText[0]);
+                    val2 = int.Parse(splitText[1]);
+                    val3 = val1 / val2;
+                    inOutput.Text = Convert.ToString(val3);
                 }
             }
-            inOutput.Text = "";
         }
     }
 }
