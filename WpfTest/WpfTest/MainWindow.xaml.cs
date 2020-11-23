@@ -115,7 +115,7 @@ namespace WpfTest
             int val2;
             int val3;
 
-            //Does not handle negative numbers or several equations unless '=' is pressed
+            //Does not handle negative numbers or several equations unless '=' is pressed between each equation
             for (int i = 0; i < inOutput.Text.Length; i++)
             {
                 char[] numArray = text.ToCharArray();

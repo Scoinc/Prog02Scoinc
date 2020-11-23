@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\david.utbult\\Documents\\GitHub\\Prog02Scoinc\\WpfTest\\WpfTest\\WpfTest.csproj": {}
+    "D:\\everything\\GitHub\\Prog02Scoinc\\WpfTest\\WpfTest\\WpfTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\david.utbult\\Documents\\GitHub\\Prog02Scoinc\\WpfTest\\WpfTest\\WpfTest.csproj": {
+    "D:\\everything\\GitHub\\Prog02Scoinc\\WpfTest\\WpfTest\\WpfTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\david.utbult\\Documents\\GitHub\\Prog02Scoinc\\WpfTest\\WpfTest\\WpfTest.csproj",
+        "projectUniqueName": "D:\\everything\\GitHub\\Prog02Scoinc\\WpfTest\\WpfTest\\WpfTest.csproj",
         "projectName": "WpfTest",
-        "projectPath": "C:\\Users\\david.utbult\\Documents\\GitHub\\Prog02Scoinc\\WpfTest\\WpfTest\\WpfTest.csproj",
-        "packagesPath": "C:\\Users\\david.utbult\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\david.utbult\\Documents\\GitHub\\Prog02Scoinc\\WpfTest\\WpfTest\\obj\\",
+        "projectPath": "D:\\everything\\GitHub\\Prog02Scoinc\\WpfTest\\WpfTest\\WpfTest.csproj",
+        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+        "outputPath": "D:\\everything\\GitHub\\Prog02Scoinc\\WpfTest\\WpfTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\david.utbult\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
