@@ -116,6 +116,7 @@ namespace WpfTest
 
             //Does not handle negative numbers or several equations unless '=' is pressed between each equation
             //Also why is this not a separate method
+            //I actaully somehow forgot about decimals for several weeks
             for (int i = 0; i < inOutput.Text.Length; i++)
             {
                 char[] numArray = text.ToCharArray();
