@@ -110,7 +110,6 @@ namespace WpfTest
         {
             string text = inOutput.Text;
             string[] splitText;
-            int r;
             int val1;
             int val2;
             int val3;
