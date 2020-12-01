@@ -110,13 +110,13 @@ namespace WpfTest
         {
             string text = inOutput.Text;
             string[] splitText;
-            int r;
             int val1;
             int val2;
             int val3;
 
             //Does not handle negative numbers or several equations unless '=' is pressed between each equation
             //Also why is this not a separate method
+            //I actaully somehow forgot about decimals for several weeks
             for (int i = 0; i < inOutput.Text.Length; i++)
             {
                 char[] numArray = text.ToCharArray();
