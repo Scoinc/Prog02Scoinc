@@ -101,7 +101,7 @@ namespace Slutprojekt_Balloon_Pop
                 Rectangle newBalloon = new Rectangle
                 {
                     Tag = "balloon",
-                    Height = 50,
+                    Height = 70,
                     Width = 50,
                     Fill = balloonImage
                 };
@@ -128,12 +128,53 @@ namespace Slutprojekt_Balloon_Pop
                     Canvas.SetLeft(x, Canvas.GetTop(x) - balloonSpeed);
                     Canvas.SetLeft(x, Canvas.GetLeft(x) - (sidewaysMovement * -1));
                 }
+
+                //Adds balloons that are too far up to itemRemover
+                if (Canvas.GetTop(x) < 20)
+                {
+                    itemRemover.Add(x);
+
+                    missedBalloons += 1;
+                }
+            }
+
+            //Removes balloons in itemRemover
+            foreach (Rectangle y in itemRemover)
+            {
+                MyCanvas.Children.Remove(y);
+            }
+
+            //Stops game if 10 balloons are missed
+            if (missedBalloons > 10)
+            {
+                gameIsActive = false;
+                gameTimer.Stop();
+                MessageBox.Show("Game over! You missed 10 balloons. \n Click ok to play again");
             }
         }
 
         private void PopBalloon(object sender, MouseButtonEventArgs e)
         {
+            //Checks if the game is running
+            if (gameIsActive)
+            {
+                //Checks if a balloon was clicked
+                if(e.OriginalSource is Rectangle)
+                {
+                    //Centeres the clicked balloon
+                    Rectangle activeRectangle = (Rectangle)e.OriginalSource;
 
+                    //Plays the pop sound
+                    player.Open(new Uri("pack://application:,,,/pop_sound.mp3", UriKind.RelativeOrAbsolute));
+                    player.Play();
+
+                    //Removes the clicked balloon
+                    MyCanvas.Children.Remove(activeRectangle);
+
+                    //Updates score
+                    score += 1;
+                }
+            }
         }
 
         private void StartGame()

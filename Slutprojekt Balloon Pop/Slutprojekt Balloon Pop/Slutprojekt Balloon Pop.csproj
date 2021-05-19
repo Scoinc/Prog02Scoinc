@@ -7,4 +7,24 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="files\background-Image.jpg" />
+    <None Remove="files\balloon1.png" />
+    <None Remove="files\balloon2.png" />
+    <None Remove="files\balloon3.png" />
+    <None Remove="files\balloon4.png" />
+    <None Remove="files\balloon5.png" />
+    <None Remove="files\pop_sound.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="files\background-Image.jpg" />
+    <Resource Include="files\balloon1.png" />
+    <Resource Include="files\balloon2.png" />
+    <Resource Include="files\balloon3.png" />
+    <Resource Include="files\balloon4.png" />
+    <Resource Include="files\balloon5.png" />
+    <Resource Include="files\pop_sound.mp3" />
+  </ItemGroup>
+
 </Project>
