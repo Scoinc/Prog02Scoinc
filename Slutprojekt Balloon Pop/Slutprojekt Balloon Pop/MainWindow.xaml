@@ -1,0 +1,18 @@
+﻿<Window x:Class="Slutprojekt_Balloon_Pop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Slutprojekt_Balloon_Pop"
+        mc:Ignorable="d"
+    Title="Balloon Popping Game" Height="600" Width="450" ResizeMode="CanMinimize">
+    <!-- Sets Title and dimensions of the application -->
+    
+    <Canvas Name="MyCanvas" Focusable="True" MouseLeftButtonDown="PopBalloon" Background="White">
+    <!-- Creates canvas and runs "PopBalloon" on left mouse click -->
+        
+        <Label FontSize="24" Name="scoreText" Content="Score: 0" FontWeight="ExtraBold" Canvas.Top="529"/>
+        <!-- Creates "scoreText" and sets relevant modifiers -->
+
+    </Canvas>
+</Window>

@@ -1,0 +1,19 @@
+D:\everything\GitHub\Prog02Scoinc\Slutprojekt Balloon Pop\Slutprojekt Balloon Pop\bin\Debug\netcoreapp3.1\Slutprojekt Balloon Pop.exe
+D:\everything\GitHub\Prog02Scoinc\Slutprojekt Balloon Pop\Slutprojekt Balloon Pop\bin\Debug\netcoreapp3.1\Slutprojekt Balloon Pop.deps.json
+D:\everything\GitHub\Prog02Scoinc\Slutprojekt Balloon Pop\Slutprojekt Balloon Pop\bin\Debug\netcoreapp3.1\Slutprojekt Balloon Pop.runtimeconfig.json
+D:\everything\GitHub\Prog02Scoinc\Slutprojekt Balloon Pop\Slutprojekt Balloon Pop\bin\Debug\netcoreapp3.1\Slutprojekt Balloon Pop.runtimeconfig.dev.json
+D:\everything\GitHub\Prog02Scoinc\Slutprojekt Balloon Pop\Slutprojekt Balloon Pop\bin\Debug\netcoreapp3.1\Slutprojekt Balloon Pop.dll
+D:\everything\GitHub\Prog02Scoinc\Slutprojekt Balloon Pop\Slutprojekt Balloon Pop\bin\Debug\netcoreapp3.1\Slutprojekt Balloon Pop.pdb
+D:\everything\GitHub\Prog02Scoinc\Slutprojekt Balloon Pop\Slutprojekt Balloon Pop\obj\Debug\netcoreapp3.1\Slutprojekt Balloon Pop.csprojAssemblyReference.cache
+D:\everything\GitHub\Prog02Scoinc\Slutprojekt Balloon Pop\Slutprojekt Balloon Pop\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\everything\GitHub\Prog02Scoinc\Slutprojekt Balloon Pop\Slutprojekt Balloon Pop\obj\Debug\netcoreapp3.1\App.g.cs
+D:\everything\GitHub\Prog02Scoinc\Slutprojekt Balloon Pop\Slutprojekt Balloon Pop\obj\Debug\netcoreapp3.1\Slutprojekt Balloon Pop_MarkupCompile.cache
+D:\everything\GitHub\Prog02Scoinc\Slutprojekt Balloon Pop\Slutprojekt Balloon Pop\obj\Debug\netcoreapp3.1\Slutprojekt Balloon Pop_MarkupCompile.lref
+D:\everything\GitHub\Prog02Scoinc\Slutprojekt Balloon Pop\Slutprojekt Balloon Pop\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\everything\GitHub\Prog02Scoinc\Slutprojekt Balloon Pop\Slutprojekt Balloon Pop\obj\Debug\netcoreapp3.1\Slutprojekt Balloon Pop.g.resources
+D:\everything\GitHub\Prog02Scoinc\Slutprojekt Balloon Pop\Slutprojekt Balloon Pop\obj\Debug\netcoreapp3.1\Slutprojekt Balloon Pop.AssemblyInfoInputs.cache
+D:\everything\GitHub\Prog02Scoinc\Slutprojekt Balloon Pop\Slutprojekt Balloon Pop\obj\Debug\netcoreapp3.1\Slutprojekt Balloon Pop.AssemblyInfo.cs
+D:\everything\GitHub\Prog02Scoinc\Slutprojekt Balloon Pop\Slutprojekt Balloon Pop\obj\Debug\netcoreapp3.1\Slutprojekt Balloon Pop.csproj.CoreCompileInputs.cache
+D:\everything\GitHub\Prog02Scoinc\Slutprojekt Balloon Pop\Slutprojekt Balloon Pop\obj\Debug\netcoreapp3.1\Slutprojekt Balloon Pop.dll
+D:\everything\GitHub\Prog02Scoinc\Slutprojekt Balloon Pop\Slutprojekt Balloon Pop\obj\Debug\netcoreapp3.1\Slutprojekt Balloon Pop.pdb
+D:\everything\GitHub\Prog02Scoinc\Slutprojekt Balloon Pop\Slutprojekt Balloon Pop\obj\Debug\netcoreapp3.1\Slutprojekt Balloon Pop.genruntimeconfig.cache
