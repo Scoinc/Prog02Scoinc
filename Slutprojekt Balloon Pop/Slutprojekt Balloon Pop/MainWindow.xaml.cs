@@ -125,7 +125,7 @@ namespace Slutprojekt_Balloon_Pop
                     //Sideways movement
                     sidewaysMovement = rand.Next(-5, 5);
 
-                    Canvas.SetLeft(x, Canvas.GetTop(x) - balloonSpeed);
+                    Canvas.SetTop(x, Canvas.GetTop(x) - balloonSpeed);
                     Canvas.SetLeft(x, Canvas.GetLeft(x) - (sidewaysMovement * -1));
                 }
 
@@ -149,7 +149,7 @@ namespace Slutprojekt_Balloon_Pop
             {
                 gameIsActive = false;
                 gameTimer.Stop();
-                MessageBox.Show("Game over! You missed 10 balloons. \n Click ok to play again");
+                MessageBox.Show("Game over! You missed 10 balloons. \n Click ok to exit");
             }
         }
 
@@ -190,6 +190,7 @@ namespace Slutprojekt_Balloon_Pop
             balloonSpeed = 3;
         }
 
+        //I don't know why it can't restart but i don't actually need the game to restart so it's fine
         private void RestartGame()
         {
             //Adds any existing balloon on screen to deletion list
